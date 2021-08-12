@@ -1,0 +1,39 @@
+.block{
+  display: flex;
+  margin: 0px 10px;
+  align-items: center;
+}
+.description{
+  margin: 10px;
+}
+.productImg {
+  width: 192px;
+  height: 160px;
+}
+
+.avatar{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin: 0px 10px;
+}
+h4{
+  padding: 0px 10px;
+}
+h4:hover{
+  cursor: pointer;
+}
+h4::before{
+  content: '';
+  position: relative;
+  top: -17px;
+  left: -5px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 9px 9px 9px;
+  border-color: transparent transparent #007bff transparent;
+}
+.submit{
+  display: flex;
+}
